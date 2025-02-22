@@ -218,3 +218,68 @@ Feel free to contribute to this project! Here’s how:
 3. Update the file as we progress with the project.
 
 Let me know what you’d like to tackle next, and I’ll update the README accordingly! 🚀
+
+---
+
+# Eclipso
+
+**Align Your Habits, Unlock Your Potential.**
+
+Eclipso is a cosmic-themed habit tracker that gamifies your daily routines, helping you stay consistent and reach your goals in an engaging way.
+
+## Features
+
+- 🚀 **Track Habits** – Stay on top of your daily routines.
+- 🌌 **Gamification** – Earn streaks and rewards for consistency.
+- 🎨 **Cosmic Theme** – Aesthetic, space-inspired interface.
+- 🔍 **Search & Filter** – Easily find and manage your tasks.
+
+## Tech Stack
+
+- **Frontend:** Next.js, Tailwind CSS
+- **Icons:** react-icons (FaPerson, CiGrid41, CiBoxList)
+- **Fonts:**
+  - Flazie
+  - Absans
+  - Baunk
+  - MilkyWalky
+  - Zighead
+  - Cotta
+  - Berlys
+  - CosmicVibrant
+
+## Color Palette
+
+- **Background:** `#262627` (Dark Gray)
+- **Text:** `#FFFFFF` (White), `#F5A9B8` (Soft Pink)
+- **Cards:** `#505050` (Muted Gray)
+- **Buttons & Borders:** `#303030` (Deep Gray)
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/jane-does-coding/eclipso.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd eclipso
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Run the development server:
+   ```sh
+   npm run dev
+   ```
+
+## Future Enhancements
+
+- 🌠 Dark & Light Mode
+- 🏆 Achievement System
+- 📅 Calendar View
+
+---
+
+Made with 💫 by [Jane Doe](https://github.com/jane-does-coding).
