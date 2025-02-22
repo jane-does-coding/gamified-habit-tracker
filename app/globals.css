@@ -2,20 +2,83 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+	font-family: "Berlys";
+	src: url("../public/Berlys/Berlys.otf") format("opentype");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.Berlys {
+	font-family: "Berlys";
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+	font-family: "CosmicVibrant";
+	src: url("../public/CosmicVibrant/CosmicVibrant.otf") format("opentype");
+}
+
+.CosmicVibrant {
+	font-family: "CosmicVibrant";
+}
+
+@font-face {
+	font-family: "Flazie";
+	src: url("../public/Flazie/Flazie.otf") format("opentype");
+}
+
+.Flazie {
+	font-family: "Flazie";
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: "MilkyWalky";
+	src: url("../public/MilkyWalky/MilkyWalky.otf") format("opentype");
+}
+
+.MilkyWalky {
+	font-family: "MilkyWalky";
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: "Zighead";
+	src: url("../public/Zighead/Zighead.otf") format("opentype");
+}
+
+.Zighead {
+	font-family: "Zighead";
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: "Baunk";
+	src: url("../public/Baunk/Baunk.otf") format("opentype");
+}
+
+.Baunk {
+	font-family: "Baunk";
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: "Absans";
+	src: url("../public/Absans/Absans.otf") format("opentype");
+}
+
+.Absans {
+	font-family: "Absans";
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: "Cotta";
+	src: url("../public/Cotta/Cotta.otf") format("opentype");
+}
+
+.Cotta {
+	font-family: "Cotta";
+}
+
+.glowing-text {
+	text-shadow: 3px 3px 0px white !important;
 }
